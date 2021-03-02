@@ -1,6 +1,7 @@
 # Remove test files for compression
 *.bmp
 *.txt
+*.pyc
 
 # Remove compressed files
 *.du
