@@ -4,7 +4,7 @@ from bitstring import BitArray
 
 
 def decode(filename):
-    dict, input = utils.getDict(filename[:-4] + "_compressed.du")
+    dict, input = utils.getDict(filename[:-4] + ".du")
 
     #print(dict)
 

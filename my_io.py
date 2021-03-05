@@ -27,7 +27,7 @@ def readBinaryFile(filename):
 def compressFile(filename, translateDict):
 
     # Generating name of compressed file
-    cfilename = filename[:-4] + "_compressed.du"
+    cfilename = filename[:-4] + ".du"
 
     # Opening files to translation
     input = open(filename, "rb")
