@@ -65,6 +65,8 @@ O penúltimo passo consiste em descompactar o arquivo por meio da função \text
 
 O processo acumula em um \textit{buffer} os bits lidos. Ao encontrar a sequência de bits no dicionário de Huffman, realiza-se a tradução para o símbolo correspondente e limpa-se o \textit{buffer}. Até que restem apenas os bits artificiais, esse procedimento é feito.
 
+O arquivo descompactado possui o mesmo nome do arquivo original sem a extensão com o sufixo "Decompressed", seguido da extensão do arquivo origem.
+
 ### Estatísticas
 
 Nesta última etapa, é calculado e mostrado na tela o tamanho do arquivo original, do arquivo compactado e do arquivo descompactado (averiguar perdas durante após o processo). A função \textbf{calculateSize} é utilizada para calcular ambos os tamanhos de interesse. A seguir, uma lista que relaciona uma estatística e uma função responsável por mostrá-la para o usuário:
